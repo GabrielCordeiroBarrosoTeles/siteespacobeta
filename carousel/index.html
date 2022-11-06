@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Espaço Mix</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><!--Importante, faz os icons aparecerem no footrer-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link rel="stylesheet" href="css/estilodeicons.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <style>
+      
+    </style>
+</head>
+<body>    
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-family: Blippo, fantasy;font-size: xx-large;">Espaço Mix <img src="img/baloes.png" alt="" width="23%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Espaço
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Montese</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Parangaba</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" style="border-radius: 0.5%;">
+        <div class="carousel-item active">
+          <img src="img/espaco.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/espaco9.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/espaco.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" style="background-color: rgba(0, 0, 0, 0.168);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" style="background-color: rgba(0, 0, 0, 0.168);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<br>
+    <!-- Home cards 1 -->
+    <section class="">
+      <h1 style="text-align: center;">Produtos</h1>
+      <br>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          
+          <div class="card">
+            <img src="img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Barraca de Pipoca</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/card2.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Barraca de Algudao Doce</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="text-align: center;">
+            <img src="img/card3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/card4.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+
+    <!-- Xbox -->
+    <section class="xbox">
+      <div class="content">
+        <h2>Temos no Montese</h2>
+        <p>Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality
+          console and PC games. Play together with friends and discover your
+          next favorite game.</p>
+          <a href="#" class="btn">
+            Join Now <i class="fas fa-chevron-right"></i>
+          </a>
+      </div>
+    </section>
+
+    <!-- Home cards 2 
+			<section class="home-cards">
+				<div>
+					<img src="https://i.ibb.co/zVqhWn2/card5.png" alt="" />
+					<h3>Microsoft Teams</h3>
+					<p>
+						Unleash the power of your team.
+					</p>
+					<a href="#">Shop Now <i class="fas fa-chevron-right"></i></a>
+				</div>
+				<div>
+					<img src="https://i.ibb.co/mGZcxcn/card6.jpg" alt="" />
+					<h3>Unlock the power of learning</h3>
+					<p>
+						Get students future-ready with Windows 10 devices. Starting at $219.
+					</p>
+					<a href="#">Shop Now <i class="fas fa-chevron-right"></i></a>
+				</div>
+				<div>
+					<img src="https://i.ibb.co/NpPvVHj/card7.png" alt="" />
+					<h3>Windows 10 Enterprise</h3>
+					<p>
+						Download the free 90-day evaluation for IT professionals.
+					</p>
+					<a href="#">Download Now <i class="fas fa-chevron-right"></i></a>
+				</div>
+				<div>
+					<img src="https://i.ibb.co/LkP4L5T/card8.png" alt="" />
+					<h3>Explore Kubernetes</h3>
+					<p>
+						Learn how Kubernetes works and get started with cloud native app
+						development today.
+					</p>
+					<a href="#">Get Started <i class="fas fa-chevron-right"></i></a>
+				</div>
+      </section>
+      -->
+
+
+
+
+      
+      <!-- Carbon -->
+      <section class="xbox">
+        <div class="content">
+          <h2>E tambem temos na <br>Parangaba</h2>
+          <p>Microsoft will be carbon negative by 2030 and by 2050 we will remove
+            all carbon the company has emitted since it was founded in 1975</p>
+            <a href="#" class="btn">
+              Learn More <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+      </section>
+
+      <!-- Follow -->
+      <section class="follow">
+        <div class="todosicon">
+          <a class="ri-whatsapp-line icon" id="zap" href="https://wa.me/qr/XBYWLQX7REX6I1" ></a>
+          <a class="ri-instagram-line icon" id="insta" href="https://instagram.com/chapa.todos_juntos?igshid=YmMyMTA2M2Y="></a>
+          <a class="ri-linkedin-line icon" id="linkedin" href=""></a> 
+      </div>
+        <!--<p>Follow Microsoft</p>
+        <a href="https://facebook.com">
+          <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com">
+          <img src="https://i.ibb.co/vJvbLwm/social-twitter.png" alt="Twitter">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin">
+        </a>-->
+      </section>
+    </div>
+      <!-- Links -->
+      <section class="links">
+        <div class="links-inner">
+          <ul>
+            <li><h3>What's New</h3></li>
+            <li><a href="#">Surface Pro X</a></li>
+            <li><a href="#">Surface Laptop 3</a></li>
+            <li><a href="#">Surface Pro 7</a></li>
+            <li><a href="#">Windows 10 apps</a></li>
+            <li><a href="#">Office apps</a></li>
+          </ul>
+          <ul>
+            <li><h3>Microsoft Store</h3></li>
+            <li><a href="#">Account Profile</a></li>
+            <li><a href="#">Download Center</a></li>
+            <li><a href="#">Microsoft Store support</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Older tracking</a></li>
+          </ul>
+          <ul>
+            <li><h3>Education</h3></li>
+            <li><a href="#">Microsfot in education</a></li>
+            <li><a href="#">Office for students</a></li>
+            <li><a href="#">Office 365 for schools</a></li>
+            <li><a href="#">Deals for studentss</a></li>
+            <li><a href="#">Microsfot Azure</a></li>
+          </ul>
+          <ul>
+            <li><h3>Enterprise</h3></li>
+            <li><a href="#">Azure</a></li>
+            <li><a href="#">AppSource</a></li>
+            <li><a href="#">Automotive</a></li>
+            <li><a href="#">Government</a></li>
+            <li><a href="#">Healthcare</a></li>
+          </ul>
+          <ul>
+            <li><h3>Developer</h3></li>
+            <li><a href="#">Visual Studio</a></li>
+            <li><a href="#">Windowszs Dev Center</a></li>
+            <li><a href="#">Developer Network</a></li>
+            <li><a href="#">TechNet</a></li>
+            <li><a href="#">Microsoft Developer</a></li>
+          </ul>
+          <ul>
+            <li><h3>Company</h3></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About Microsoft</a></li>
+            <li><a href="#">Company news</a></li>
+            <li><a href="#">Privacy at Microsoft</a></li>
+            <li><a href="#">Inverstors</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-inner">
+          <div><i class="fas fa-globe fa-2x"></i> English (United States)</div>
+          <ul>
+            <li><a href="#">Sitemap</a></li>
+					<li><a href="#">Contact Microsoft</a></li>
+					<li><a href="#">Privacy & cookies</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">Trademarks</a></li>
+					<li><a href="#">Safety & eco</a></li>
+					<li><a href="#">About our ads</a></li>
+					<li><a href="#">&copy; Microsoft 2020</a></li>
+          </ul>
+        </div>
+      </footer>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
